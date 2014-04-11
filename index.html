@@ -1,0 +1,39 @@
+<html>
+<head>
+
+</head>
+<body>
+<h1>Hello JavaScript</h1>
+<h2>My Flight Information</h2>
+
+  Airline Name: <span id="AirlineName"></span><br />
+  Flight Number: <span id="FlightNumber"></span><br />
+  Departure City: <span id="DepartureCity"></span><br />
+    Departure Time: <span id="DepartureTime"></span><br />
+  </p>
+
+	<script type="text/JavaScript">
+var flight = {
+  airline: "Delta",
+  number: 357,
+  departure: {
+    time: "2005-09-22 14:55",
+    city: "Santa Monica"
+  },
+  arrival: {
+    airport: "LAX",
+    time: "2005-09-22 14:57",
+    city: "Los Angeles"
+  }
+};
+
+
+ console.log(flight.number)
+
+document.getElementById("AirlineName").innerHTML=flight.airline;
+document.getElementById("FlightNumber").innerHTML=flight.number;
+document.getElementById("DepartureCity").innerHTML=flight.departure.city;
+document.getElementById("DepartureTime").innerHTML=flight.departure.time;
+	</script>
+</body>
+</html>

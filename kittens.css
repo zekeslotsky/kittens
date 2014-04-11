@@ -1,0 +1,10 @@
+button {
+		display:inline-block;
+			background-color: red;
+			position: absolute;
+			width:450px; height:350px;  
+			top: 25px; left: 150px;
+			text-align: center;
+			font-size: 30px;
+			padding: 25px 25px 10px 25px;
+			font-family: cursive;}
